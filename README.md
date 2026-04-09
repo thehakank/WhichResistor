@@ -1,20 +1,15 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Elektrik Elektronik Mühendisleri ve Öğrencileri İçin Akıllı Direnç Asistanı
 
-# Run and deploy your AI Studio app
+WhichResistor, devre tasarımı ve laboratuvar çalışmaları sırasında direnç hesaplama ve kombinasyon bulma süreçlerini hızlandırmak için geliştirilmiş bir araçtır.
+4 Bantlı Renk Hesaplayıcı: Renkleri seçerek direnç değerini ve toleransını anında görün.
+Değer Bulucu: Elinizdeki dirençlerle hedeflediğiniz değere nasıl ulaşacağınızı (Seri/Paralel) saniyeler içinde hesaplayın.
+Modern Arayüz: Vite ve React ile güçlendirilmiş, hızlı ve kullanıcı dostu tasarım.
 
-This contains everything you need to run your app locally.
+💡 Neden Bu Proje?
+Devre kurarken her zaman istediğimiz tam direnç değerini (örneğin 335 $\Omega$) kutumuzda bulamayız. WhichResistor, eldeki standart dirençleri kullanarak hedefe en yakın kombinasyonu sizin yerinize planlar.
 
-View your app in AI Studio: https://ai.studio/apps/005094df-3a74-429e-ace1-927326a500d7
+Projeyi yerelde çalıştırmak isterseniz:
 
-## Run Locally
+npm install
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+npm run dev
